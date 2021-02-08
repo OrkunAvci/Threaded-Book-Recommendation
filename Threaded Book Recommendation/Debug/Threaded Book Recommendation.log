@@ -1,0 +1,6 @@
+﻿  dcreader.c
+  linkedlist.c
+  main.c
+d:\github\library\c\threaded book recommendation\threaded book recommendation\main.c(3): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+  recommendation.c
+  Generating Code...
