@@ -36,6 +36,8 @@ int main()
 	ThreadData* arg = (ThreadData*) calloc(1, sizeof(ThreadData));
 	arg->fileName = (char*) calloc(50, sizeof(char));
 	strncpy(arg->fileName, "RecomendationDataSet.csv", 50);
+	arg->similarsNum = 5;
+	arg->subjectID = 0;
 
 	//	Proof of concept:
 	pthread_create(&(threads[0]), NULL, recommendation_thread, arg);
