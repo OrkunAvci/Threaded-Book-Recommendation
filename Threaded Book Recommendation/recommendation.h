@@ -6,6 +6,6 @@
 #include <stdio.h>
 #include <math.h>
 
-void recommed(DC*, int, int);
+void recommend(DC*, int, int);
 
 #endif /*__RECOMMENDATION_H__*/

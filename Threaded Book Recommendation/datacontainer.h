@@ -19,4 +19,4 @@ typedef struct DataContainer
 	CPS** subjects;		//	Other readers, or subjects, to make predictions to.
 }DC;
 
-#endif __DATACONTAINER_H__
+#endif /*__DATACONTAINER_H__*/
