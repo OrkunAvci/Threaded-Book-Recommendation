@@ -1,4 +1,3 @@
 # Threaded-Book-Recommendation
  
-Threaded version of the code.
-Will be pulled from my Linux OS and turned into a threaded program.
+Currently uses pthreads, I will come back and customize when I get familiar with Windows threads.
