@@ -18,7 +18,7 @@ typedef struct ThreadData
 	int similarsNum;
 }ThreadData;
 
-void* recommendation_thread(void* arg)
+void recommendation_thread(void* arg)
 {
 	ThreadData* argData = (ThreadData*) arg;
 	DC* data = readDC(argData->fileName);
